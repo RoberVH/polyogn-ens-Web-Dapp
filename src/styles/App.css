@@ -11,10 +11,13 @@ p {
 
 .container {
   height: 100%;
-  background-color: #181818;
+  /* background-color: #181818; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* background-color: #6b69ac; */
+  background-image: linear-gradient(0deg, #6b69ac 7%, #071822 62%);
+
 }
 
 .header-container {
@@ -30,13 +33,13 @@ header{
 
 .title {
   margin: 0;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: bold;
   color: white;
 }
 
 .subtitle {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 
@@ -45,6 +48,15 @@ header{
   margin-left: 10%;
 }
 
+.eth-cta {
+  text-align: right;
+  margin-right: 0.9em;
+  color: white;
+  /* color: rgb(212, 140, 58); */
+  /* font-weight: bold; */
+  font-size: 1.2em;
+  margin-top: -2px
+}
 .logo{
   width: 20px;
   height: 20px;
@@ -152,6 +164,21 @@ header{
   height: 35px;
 }
 
+.network-logo {
+  display:flex;
+  flex-direction: row;
+  /* background-color: #61395e; */
+  height:1.7em;
+  padding: 15px;
+  border-radius: 25px;
+  padding-right: 2px;
+  margin-right:1em;
+  /* background-color: #00DBDE;
+  background-image: linear-gradient(290deg, #00DBDE 0%, #FC00FF 100%); */
+  background-color: #00DBDE;
+  background-image: linear-gradient(290deg, #00DBDE 0%, #410942 100%);
+}
+
 .footer-text {
   color: white;
   font-size: 16px;
@@ -164,6 +191,7 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 input{
@@ -193,9 +221,14 @@ input:focus {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* justify-content: flex-start; */
   align-items: center;
   margin-bottom: 10px;
 
+}
+.mintedDomain {
+  background: rgb(238,232,134);
+  background: linear-gradient(90deg, rgba(238,232,134,1) 1%, rgba(230,235,190,0.969625350140056) 92%);
 }
 
 .tld {
@@ -234,6 +267,7 @@ input:focus {
   max-width: fit-content;
   box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.2);
 }
+
 
 /* Different background-colour for every nth mint-item */
 .mint-item:nth-child(2n) {

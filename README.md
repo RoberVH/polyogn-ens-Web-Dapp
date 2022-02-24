@@ -2,15 +2,9 @@
 
 ### **Welcome 👋**
 
-To get started with this course, clone this repo and follow these commands:
-
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
-
-### What is the `.vscode` Folder?
-If you use VSCode to build your app, we included a list of suggested extensions that will help you build this project! Once you open this project in VSCode, you will see a popup asking if you want to download the recommended extensions :).
+## My Rendition of the [Buildspace] (https://app.buildspace.so/projects/CO1f8c72fd-67a3-4f99-90b8-79879c5da1eb)) project
+## Build your own DNS service on Polygon L2 in a weekend
 
 
 ### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/) and link your Discord account so you can get access to helpful channels teaching assistants, and your instructor!
+Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/) and link your Discord account so you can get access to helpful channels teaching assistants, and your instructor!<svg xmlns="http://www.w3.org/2000/
