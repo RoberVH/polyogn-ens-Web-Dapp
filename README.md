@@ -13,5 +13,10 @@ To run the project:
 $> npm install
 $> npm start
 
+## Dapp deployed to:
+
+https://ens-dapp-psi.vercel.app/
+
+
 ## Roberto V.
 ## Feb 2022
